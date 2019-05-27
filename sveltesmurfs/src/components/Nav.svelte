@@ -60,7 +60,7 @@
       <a class={segment === undefined ? 'selected' : ''} href=".">Home</a>
     </li>
     <li>
-      <a class={segment === 'add-new-smurf' ? 'selected' : ''} href="add-new-smurf">Add New Smurf</a>
+      <a class={segment === 'AddNewSmurf' ? 'selected' : ''} href="AddNewSmurf">Add New Smurf</a>
     </li>
 
   </ul>
