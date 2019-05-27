@@ -6,13 +6,15 @@
 
 <style>
 	main {
-		position: relative;
-		max-width: 56em;
-		background-color: white;
-		padding: 2em;
-		margin: 0 auto;
+	display:flex;
+	justify-content: center;
+		background-color: #9CF8ED;
 		box-sizing: border-box;
 	}
+
+
+
+
 </style>
 
 <Nav {segment}/>

@@ -1,3 +1,6 @@
+<script>
+</script>
+
 <style>
 	h1, figure, p {
 		text-align: center;
@@ -30,11 +33,23 @@
 			font-size: 4em;
 		}
 	}
+
+.smurf {
+
+    border: 2px solid black;
+    margin: 15px 0;
+    padding-bottom: 5px;
+    width: 25em;
+}
+
 </style>
 
 <svelte:head>
 	<title>Sapper project template</title>
 </svelte:head>
+
+
+<div class="smurf">
 
 <h1>Great success!</h1>
 
@@ -44,3 +59,5 @@
 </figure>
 
 <p><strong>Try editing this file (src/routes/index.svelte) to test live reloading.</strong></p>
+
+</div>
