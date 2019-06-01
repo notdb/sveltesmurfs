@@ -24,29 +24,11 @@
       console.log(err);
     });
 
-  function postRequest(url, data) {
-    return fetch(url, {
-      credentials: "same-origin", // 'include', default: 'omit'
-      method: "POST", // 'GET', 'PUT', 'DELETE', etc.
-      body: JSON.stringify(data), // Coordinate the body type with 'Content-Type'
-      headers: new Headers({
-        "Content-Type": "application/json"
-      })
-    }).then(response => response.json());
-  }
 
-function addSmurf(smurf, event) {
-    event.preventDefault();
-    postRequest('http://localhost:3333/smurfs', smurf)
-    .then(data =>smurfs = smurfs)
-    .catch(error => console.log(error))
-  };
 </script>
 
 <style>
-  h1,
-  figure,
-  p {
+  h1 figure p {
     text-align: center;
     margin: 0 auto;
   }
@@ -62,12 +44,13 @@ function addSmurf(smurf, event) {
     margin: 0 0 1em 0;
   }
 
+/*
   img {
     width: 100%;
     max-width: 400px;
     margin: 0 0 1em 0;
   }
-
+*/
   p {
     margin: 1em auto;
   }
